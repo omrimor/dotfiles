@@ -22,6 +22,8 @@ cask "visual-studio-code"     # Useful to have as backup
 cask "ghostty"                # Better terminal (optional)
 cask "docker"                 # Docker Desktop
 cask "slack"
+cask "1password"
+cask "spotify"
 vscode "anthropic.claude-code"
 vscode "christian-kohler.npm-intellisense"
 vscode "christian-kohler.path-intellisense"
