@@ -1,0 +1,190 @@
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+  "tree.indentGuidesStroke": "#05ef3c"
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.scrollback": 10000,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 15,
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": true,
+  "editor.matchBrackets": "always",
+  "editor.formatOnPaste": false,
+  "editor.minimap.enabled": false,
+  "editor.codeLens": true,
+  "editor.detectIndentation": true,
+  "editor.lightbulb.enabled": "off",
+  "editor.rulers": [80],
+  "editor.snippetSuggestions": "inline",
+  "editor.suggest.showKeywords": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggest.localityBonus": true,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.glyphMargin": true,
+  "editor.folding": false,
+  "editor.lineNumbers": "on",
+  "editor.suggestSelection": "first",
+  "editor.cursorBlinking": "solid",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "explorer.openEditors.visible": 1,
+  "explorer.fileNesting.enabled": true,
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "window.nativeTabs": true,
+  "window.newWindowDimensions": "maximized",
+  "breadcrumbs.enabled": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 10,
+  "workbench.editor.enablePreview": false,
+  "gitProjectManager.baseProjectsFolders": ["/Users/omrimor/Documents/code/"],
+  "gitProjectManager.storeRepositoriesBetweenSessions": true,
+  "gitProjectManager.ignoredFolders": ["node_modules"],
+  "gitProjectManager.checkRemoteOrigin": false,
+  "files.exclude": {
+    "**/build": true,
+    "**/coverage": true,
+    "**/logs": true,
+    "USE_GITIGNORE": true
+  },
+  "files.associations": {
+    "*.md": "mdx"
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/coverage": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.build": true,
+    "**/.gh-pages": true,
+    "**/*.chunk.js.map": true,
+    "**/storybook-static": true
+  },
+  "files.defaultLanguage": "{activeEditorLanguage}",
+  "javascript.validate.enable": false,
+  "files.insertFinalNewline": true,
+  "debug.internalConsoleOptions": "neverOpen",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.tsserver.watchOptions": {
+    "watchDirectory": "useFsEvents",
+    "fallbackPolling": "dynamicPriorityPolling",
+    "watchFile": "useFsEventsOnParentDirectory",
+    "synchronousWatchDirectory": true,
+    "excludeDirectories": ["**/node_modules/**/*"]
+  },
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "todohighlight.keywords": [
+    "TODO:",
+    "NOTE:",
+    "HACK:",
+    {
+      "text": "@ts-expect-error",
+      "color": "#fff",
+      "backgroundColor": "#2196f3"
+    },
+    {
+      "text": "eslint-disable",
+      "color": "#fff",
+      "backgroundColor": "#f06292"
+    }
+  ],
+  "sync.forceUpload": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "workbench.colorTheme": "One Hunter Theme Vercel",
+  "editor.scrollBeyondLastColumn": 0,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "workbench.iconTheme": "vscode-icons",
+  "sync.quietSync": true,
+  "editor.formatOnSave": true,
+  "files.autoSaveDelay": 50,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "markdown"
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[mdx]": {
+    "editor.wordWrap": "on"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "settingsSync.ignoredExtensions": [],
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.stickyScroll.enabled": true,
+  "git.mergeEditor": false,
+  "redhat.telemetry.enabled": true,
+  "editor.renderWhitespace": "boundary",
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": false
+  },
+  "playwright.reuseBrowser": true,
+  "colorize.languages": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": true,
+  "editor.linkedEditing": true,
+  "mdx-preview.build.useSucraseTranspiler": true,
+  "markdownlint.run": "onSave",
+}
