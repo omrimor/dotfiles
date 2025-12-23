@@ -1,6 +1,7 @@
 # `omrimor/dotfiles`
 
 Insipred heavily from https://github.com/cpojer/dotfiles/blob/main/README.md 🙏
+
 Check out [The Perfect Development Environment](https://cpojer.net/posts/the-perfect-development-environment).
 
 ## Install
