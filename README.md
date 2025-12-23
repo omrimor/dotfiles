@@ -2,6 +2,8 @@
 
 Insipred heavily from https://github.com/cpojer/dotfiles/blob/main/README.md 🙏
 
+Related article on this [here](https://cpojer.net/posts/set-up-a-new-mac-fast)
+
 Check out [The Perfect Development Environment](https://cpojer.net/posts/the-perfect-development-environment).
 
 ## Install
