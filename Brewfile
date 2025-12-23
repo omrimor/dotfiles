@@ -1,13 +1,27 @@
+# Taps (Sources for apps)
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+# Fonts (Crucial for Starship icons)
+cask "font-fira-code-nerd-font"
+# Core Command Line Tools
 brew "git"
+brew "fnm"          # Fast Node Manager
+brew "starship"     # The prompt theme
+brew "zoxide"       # The 'z' command (better cd)
+brew "direnv"       # Safe .env loader
+brew "gh"           # GitHub CLI
+brew "fzf"          # Fuzzy finder (optional but highly recommended)
 brew "graphviz"
-brew "mcpm"
-brew "node"
-brew "nvm"
-brew "pipx"
 brew "pnpm"
-brew "yarn"
 cask "fork"
 cask "raycast"
+# Applications
+cask "brave-browser"          # Replaces Chrome
+cask "cursor"                 # Your editor (Code - Insiders)
+cask "visual-studio-code"     # Useful to have as backup
+cask "ghostty"                # Better terminal (optional)
+cask "docker"                 # Docker Desktop
+cask "slack"
 vscode "anthropic.claude-code"
 vscode "christian-kohler.npm-intellisense"
 vscode "christian-kohler.path-intellisense"
