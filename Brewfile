@@ -2,6 +2,7 @@
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 # Fonts (Crucial for Starship icons)
+cask "font-fira-code"
 cask "font-fira-code-nerd-font"
 # Core Command Line Tools
 brew "git"
@@ -11,6 +12,7 @@ brew "zoxide"       # The 'z' command (better cd)
 brew "direnv"       # Safe .env loader
 brew "gh"           # GitHub CLI
 brew "fzf"          # Fuzzy finder (optional but highly recommended)
+brew "bat"
 brew "graphviz"
 brew "pnpm"
 cask "fork"
@@ -24,6 +26,9 @@ cask "docker"                 # Docker Desktop
 cask "slack"
 cask "1password"
 cask "spotify"
+cask "rectangle"
+cask "imageoptim"
+cask "cleanshot"
 vscode "anthropic.claude-code"
 vscode "christian-kohler.npm-intellisense"
 vscode "christian-kohler.path-intellisense"
