@@ -3,7 +3,7 @@
   "workbench.tree.indent": 15,
   "workbench.tree.renderIndentGuides": "always",
   "workbench.colorCustomizations": {
-  "tree.indentGuidesStroke": "#05ef3c"
+    "tree.indentGuidesStroke": "#05ef3c",
   },
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.defaultProfile.osx": "zsh",
@@ -33,7 +33,7 @@
   "editor.suggestSelection": "first",
   "editor.cursorBlinking": "solid",
   "editor.quickSuggestions": {
-    "strings": true
+    "strings": true,
   },
   "explorer.openEditors.visible": 1,
   "explorer.fileNesting.enabled": true,
@@ -47,18 +47,11 @@
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 10,
   "workbench.editor.enablePreview": false,
-  "gitProjectManager.baseProjectsFolders": ["/Users/omrimor/Documents/code/"],
-  "gitProjectManager.storeRepositoriesBetweenSessions": true,
-  "gitProjectManager.ignoredFolders": ["node_modules"],
-  "gitProjectManager.checkRemoteOrigin": false,
   "files.exclude": {
     "**/build": true,
     "**/coverage": true,
     "**/logs": true,
-    "USE_GITIGNORE": true
-  },
-  "files.associations": {
-    "*.md": "mdx"
+    "USE_GITIGNORE": true,
   },
   "search.exclude": {
     "**/node_modules": true,
@@ -69,7 +62,7 @@
     "**/.build": true,
     "**/.gh-pages": true,
     "**/*.chunk.js.map": true,
-    "**/storybook-static": true
+    "**/storybook-static": true,
   },
   "files.defaultLanguage": "{activeEditorLanguage}",
   "javascript.validate.enable": false,
@@ -84,7 +77,7 @@
     "fallbackPolling": "dynamicPriorityPolling",
     "watchFile": "useFsEventsOnParentDirectory",
     "synchronousWatchDirectory": true,
-    "excludeDirectories": ["**/node_modules/**/*"]
+    "excludeDirectories": ["**/node_modules/**/*"],
   },
   "typescript.suggest.paths": false,
   "javascript.suggest.paths": false,
@@ -97,18 +90,17 @@
     {
       "text": "@ts-expect-error",
       "color": "#fff",
-      "backgroundColor": "#2196f3"
+      "backgroundColor": "#2196f3",
     },
     {
       "text": "eslint-disable",
       "color": "#fff",
-      "backgroundColor": "#f06292"
-    }
+      "backgroundColor": "#f06292",
+    },
   ],
-  "sync.forceUpload": true,
   "vsicons.dontShowNewVersionMessage": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
   },
   "workbench.colorTheme": "One Hunter Theme Vercel",
   "editor.scrollBeyondLastColumn": 0,
@@ -119,10 +111,7 @@
   "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "sync.autoDownload": true,
-  "sync.autoUpload": true,
   "workbench.iconTheme": "vscode-icons",
-  "sync.quietSync": true,
   "editor.formatOnSave": true,
   "files.autoSaveDelay": 50,
   "eslint.validate": [
@@ -130,33 +119,36 @@
     "javascriptreact",
     "typescript",
     "typescriptreact",
-    "markdown"
+    "markdown",
   ],
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
+  },
+   "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[mdx]": {
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
   },
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "editor.inlineSuggest.enabled": true,
   "settingsSync.ignoredExtensions": [],
@@ -165,26 +157,17 @@
   "git.mergeEditor": false,
   "redhat.telemetry.enabled": true,
   "editor.renderWhitespace": "boundary",
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": true,
-    "plaintext": false,
-    "markdown": false
-  },
-  "playwright.reuseBrowser": true,
   "colorize.languages": [
     "javascript",
     "javascriptreact",
     "typescript",
-    "typescriptreact"
+    "typescriptreact",
   ],
   "tailwindCSS.experimental.classRegex": [
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
   ],
-  "totalTypeScript.hideAllTips": false,
-  "totalTypeScript.hideBasicTips": true,
   "editor.linkedEditing": true,
-  "mdx-preview.build.useSucraseTranspiler": true,
   "markdownlint.run": "onSave",
+  "mdx.validate.validateFileLinks": "ignore"
 }
